@@ -1,0 +1,10 @@
+## Interface: 40300
+## Title: HealerSays
+## Notes: Informs party when Out of Mana
+## Version: 40300-01
+## Author: Patrick Meade
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+HealerSays.lua
+

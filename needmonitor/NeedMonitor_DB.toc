@@ -1,0 +1,9 @@
+## Interface: 40200
+## Title: NeedMonitor_DB
+## Author: Patrick Meade
+## Notes: Database for NeedMonitor
+## SavedVariables: NeedMonitor_DB, GoldTracker_DB
+## Version: 4.2.0
+
+NeedMonitor_DB.lua
+

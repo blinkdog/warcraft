@@ -1,0 +1,60 @@
+
+This repository contains three AddOns for World of Warcraft that I wrote
+over the past three years. Nothing terribly glamorous, but they helped
+me learn a little bit of Lua, a little bit of WoW, and occupied my time.
+
+Everything here is licensed under the GNU General Public License v3+
+
+healersays - An AddOn that automatically informs the party when you
+             are running low on mana. The interesting thing is that
+             it waits until combat is complete; thereby making the
+             message more likely to be read.
+
+             It also sends a Whisper to the tank, because this produces
+             a "ding" under the default UI that is more likely to catch
+             the attention of the tank.
+
+             It also sends a whisper to Warlocks telling them to convert
+             health to mana. Some healers are jerks, won't heal warlocks
+             who self-hurt; this was intended to dispell this fear.
+
+             It also whispers the tank to say "Tell me if the DPS give
+             you any trouble." The most common problem I saw in WoW,
+             especially at low levels, were bad DPS who pulled in front
+             of the tank. Letting the tank know that you'll help on a
+             Vote to Kick is always a nice gesture.
+
+             Status: Ready for Cata 4.3 (current, circa Feb 2012)
+
+needmonitor - When you are leveling your very first main, it can be
+              extremely frustrating to watch people select Need on an
+              item they can't even use.
+
+              In modern versions of WoW, selecting Need automatically
+              makes the item Soulbound, which helps a lot. Although it
+              still doesn't prevent the ultra-greedy from trying to
+              acquire items just for vendor junk.
+
+              Once I got my first main up to maximum level, this AddOn
+              looks almost silly in hindsight. Really? An AddOn to
+              complain about someone Need-ing on a Lvl 40 piece of gear?
+              But, anyway, it gave me peace of mind, because it watched
+              for ninjas so that I didn't have to.
+
+              Status: Total mess, needs work if you want to use it
+
+polyglot - This is an interesting one, intended more for RP servers. The
+           idea is that your character can learn to understand the
+           languages of other races. It depends on others running the
+           AddOn to provide translations, so it's best when everyone in
+           your guild is running it, etc.
+
+           Status: Ready for Cata 4.3 (current, circa Feb 2012)
+
+I don't anticipate playing World of Warcraft again in the future. So,
+this code is hereby released to the community under the GNU GPL v3+,
+so that others may take what benefit they can.
+
+I am posting this to GitHub, so if you found it in another location,
+you can always check my repository: https://github.com/blinkdog/warcraft
+

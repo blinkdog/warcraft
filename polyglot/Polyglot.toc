@@ -1,0 +1,10 @@
+## Interface: 40300
+## Title: Polyglot
+## Version: 40300-01
+## Author: Patrick Meade
+## Notes: Learn the languages of other races
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariablesPerCharacter: Polyglot_Dictionary
+
+Polyglot.lua
